@@ -1,13 +1,12 @@
-AA=zeros(1000,8);
+AA=zeros(10000,8);
 Z=grid2dtr(45,45);
 g=graph(Z);
 N=numnodes(g);
-Predators=[6 8 10 12 14 16 18 20];
-for j=1:1
-	parfor i=1:1000
+Predators=[8 9 10 11 12 13 14 15];
+for j=1:8
+	parfor i=1:10000
     		[~,AA(i,j)]=surv(Z,g,10^7,15,randi(2025)); 
     		disp(i); 
 	end
 end
 
-%save a40d

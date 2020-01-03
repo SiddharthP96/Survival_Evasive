@@ -1,4 +1,4 @@
-# Survival_Evasive
+# Survival Probability of a Lazy Prey on Lattices and Complex Networks
 Codes for the numerical simulations in the paper, 'Survival probability of a lazy prey on lattices and complex networks'
 
 The paper analyzes the survival probability of lazy prey in a predator-prey model, where the the predators and the prey occupy the nodes of complex networks and lattices and navigate along the edges. The predators are modelled as random walkers, and the prey follows a minimal effort evasion strategy, where it only moves when a predator enters its immediate neighbourhood. This strategy forces predators to approach the prey in specific configurations and drastically increses the survival probability of the prey. This repository contains the codes to simulate the predator-prey in MATLAB. 
